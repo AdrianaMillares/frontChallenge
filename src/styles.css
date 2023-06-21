@@ -1,0 +1,80 @@
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: grid;
+  gap: 1em;
+}
+
+.nuevo {
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: .375rem .75rem;
+  border: 1px solid #007bff;
+  border-radius: .25rem;
+  color: #007bff;
+  background-color: white;
+  transition: color .15s ease-in-out,
+  background-color .15s ease-in-out;
+}
+
+.delete-button {
+  background: whitesmoke;
+  margin-left: 2px;
+  margin-top: 2px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.delete-button svg {
+  vertical-align: middle;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.parent {
+  margin-top: 10px;
+  position: absolute;
+  background: black;
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instrucciones {
+  width: 75vw;
+  padding: .375rem .75rem;
+  border: 1px solid #007bff;
+  border-radius: .25rem;
+  border-color: #007bff;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.instruccion {
+  color: #007bff;
+}
