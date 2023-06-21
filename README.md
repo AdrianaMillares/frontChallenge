@@ -1,3 +1,6 @@
+# Link a la aplicación
+https://front-challenge-smoky.vercel.app
+
 # Instrucciones del challenge
 1. Los componentes no deben de salirse del div con id "parent" al arrastrarse
 
